@@ -1,35 +1,41 @@
-# 现代 AI 与 Agent 系统 · 学员交互式实验 (Google Colab Notebooks)
+# AgentTect Public Course Notebooks & Student Labs
+## 现代 AI 与 Agent 系统 · 学生实验与在线 Notebook 分发仓库
 
-欢迎来到《现代 AI 与 Agent 系统》（傻子也能学 Agent）官方云端实验室仓库！
+[![Course Site](https://img.shields.io/badge/Course%20Site-academy.viewatom.com-blue?style=for-the-badge)](https://academy.viewatom.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-本仓库由课程主站 [https://academy.viewatom.com](https://academy.viewatom.com) 直通维护。所有学员无需在本地配置繁杂的 Python 深度学习和 Agent 运行环境，只需点击下方任意一节课的 **`Open in Colab`** 徽标，即可直接在 Google 官方云端免配置、免密开跑！
-
----
-
-## 📚 课程实验室全景索引
-
-| 课次 | 核心主题 | 云端开跑 (Google Colab) |
-| :---: | :--- | :---: |
-| **01** | **Agent Loop 核心机制**：从 Token 推理到带上限的工具拦截循环 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/01_agent_runtime.ipynb) |
-| **02** | **RAG 语义检索**：从海量文档切片、Embedding 到确定性事实召回 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/02_context_memory_rag.ipynb) |
-| **03** | **Research Agent 深度研究**：自省、多轮检索验证与假设证伪 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/03_reasoning_research_agent.ipynb) |
-| **04** | **Coding Agent 代码开发**：RePPIT 规范、行为规格与快照沙箱 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/04_digital_environments_code_agent.ipynb) |
-| **05** | **工作流与设计模式**：提示链、显式路由、并行并发与门禁防线 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/lesson_05_workflow_skills.ipynb) |
-| **06** | **状态图与确定性恢复**：持久化状态机、轻量检查点与断电秒级恢复 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/lesson_06_durable_state_graph.ipynb) |
-| **07** | **上下文工程与记忆沉淀**：注意力衰减对抗、前缀缓存与离线“做梦” | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/lesson_07_context_memory_dreaming.ipynb) |
-| **08** | **多 Agent 协作系统**：总管-工人分工、A2A 团队通信与拓扑编排 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/lesson_08_multi_agent_collaboration.ipynb) |
-| **09** | **具身规划与环境沙盒**：总管-工人隔离、环境物理交互与操作审计 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/lesson_09_multi_agent_permissions_playbook.ipynb) |
-| **10** | **安全防护与对抗围栏**：红蓝对抗、提示词注入防御与安全围栏 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/10_robot_safety.ipynb) |
-| **11** | **企业级事务与补偿**：分布式 Saga 补偿模式、两阶段提交与评测套件 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/11_enterprise_transactions.ipynb) |
-| **12** | **长程系统运营与成本优化**：时延/Token 成本Pareto前沿与故障自愈 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/12_australian_service_ops.ipynb) |
-| **13** | **严苛终态评测与部署交付**：真实业务工单评测、基准防御与端到端交付 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/13_evaluation_release.ipynb) |
+本仓库是「现代 AI 与 Agent 系统」（AgentTect）课程的**官方公开学生代码与 Notebook 分发仓库**。学生可通过点击下表中的 **Open in Colab** 官方彩色徽标，一键在 Google Colab 云端打开交互式实验环境，直接运行带单元测试与自测打分器的课程作业。
 
 ---
 
-## 🚀 学习者指引
+## 📚 课程作业与云端实验室一览表 (Syllabus & Colab Direct Links)
 
-1. **直接开跑**：点击任意上方课次的徽标，直接进入 Google Colab 实验页面；
-2. **保存副本**：在 Colab 顶部菜单点击 `文件` -> `在云端硬盘中保存一份副本`，即可将实验进度存入您自己的 Google Drive；
-3. **提交作业**：完成代码中的 `# TODO` 填空后，运行内置单元测试，生成测试成绩单。
+| 课次 | 核心主题 | 学生实验 Notebook (点击直接打开) | 独立离线包 / Starter Pack |
+| :---: | :--- | :--- | :---: |
+| **01** | Agent 运行时与基础循环 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/01_agent_runtime.ipynb) | 内置 |
+| **02** | 上下文管理、记忆与 RAG | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/02_context_memory_rag.ipynb) | 内置 |
+| **03** | 推理规划与深度研究 Agent | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/03_reasoning_research_agent.ipynb) | 内置 |
+| **3.5** | Agent 第一性原理与综合系统实验 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/03_5_agent_rag_research_synthesis.ipynb) | 内置 |
+| **04** | 数字环境与 Coding Agent 快照 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/04_digital_environments_code_agent.ipynb) | [ZIP](starter_packs/lesson_04_starter.zip) |
+| **05** | 工作流编排、路由、并行与技能门禁 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/lesson_05_workflow_skills.ipynb) | [ZIP](starter_packs/lesson_05_starter.zip) |
+| **06** | 持久化状态机与断点恢复图 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/lesson_06_durable_state_graph.ipynb) | [ZIP](starter_packs/lesson_06_starter.zip) |
+| **07** | 上下文持久化与记忆回放梦境 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/lesson_07_context_memory_dreaming.ipynb) | 内置 |
+| **08** | 高性能多 Agent 协作网络与工具调用 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/lesson_08_multi_agent_collaboration.ipynb) | [ZIP](starter_packs/lesson_08_starter.zip) |
+| **09** | 架构实战：权限门禁与执行手册演进 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/lesson_09_multi_agent_permissions_playbook.ipynb) | 内置 |
+| **10** | 专用语言 (DSL) 与机器人动作安全校验 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/10_robot_safety.ipynb) | 内置 |
+| **11** | 企业级事务与可靠状态一致性 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/11_enterprise_transactions.ipynb) | [ZIP](starter_packs/lesson_11_starter.zip) |
+| **12** | 商业服务运维与 Token 效率精细化压榨 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/12_australian_service_ops.ipynb) | 内置 |
+| **13** | 现代高可靠 Agent 系统的评测、发布与护栏 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TardisBooo/agenttect-notebooks/blob/main/notebooks/student/lessons/13_evaluation_release.ipynb) | 内置 |
 
-*课程网站：[https://academy.viewatom.com](https://academy.viewatom.com)*
+---
+
+## 🛠️ 本地运行指南 (Run Locally)
+
+如果你偏好在本地通过 VSCode 或 JupyterLab 运行，可克隆本仓库：
+
+```bash
+git clone https://github.com/TardisBooo/agenttect-notebooks.git
+cd agenttect-notebooks
+pip install jupyterlab pytest
+jupyter lab
+```
